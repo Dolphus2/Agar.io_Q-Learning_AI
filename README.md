@@ -6,9 +6,9 @@ An image of the circle categorisation function in action. Food blobs are outline
 
 States are calculated using the shortest euclidian distance to each of the three circle types: food, edible cells and dangerous cells. These distances are measured and discretized according to which interval they fall within. The rulers in this image are to scale.
 
-Currently th![State Diagram](https://user-images.githubusercontent.com/98162688/150539751-e5fe2e77-717b-48e6-81fe-c23b4a14a25a.PNG)
+![State Diagram](https://user-images.githubusercontent.com/98162688/150539751-e5fe2e77-717b-48e6-81fe-c23b4a14a25a.PNG)
 
-e agent can't press any keyboard buttons, only move around using the mouse. It could be added without too much hassle, but it would require a rework of some aspects of the code and a ton training, which already takes ages. The q-learning part could also do with a proper implementation of stochastic q-learning instead of our generic iterative q-learning, if I knew how to do it. I look forward to learning that at a later point.
+Currently the agent can't press any keyboard buttons, only move around using the mouse. It could be added without too much hassle, but it would require a rework of some aspects of the code and a ton training, which already takes ages. The q-learning part could also do with a proper implementation of stochastic q-learning instead of our generic iterative q-learning, if I knew how to do it. I look forward to learning that at a later point.
 
 Feel free to ask any questions about the code or the project. I hope you enjoy!
 
