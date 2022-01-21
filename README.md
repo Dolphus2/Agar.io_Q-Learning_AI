@@ -2,6 +2,7 @@
 An experiment on the performance of homemade Q-learning AIs in Agar.io depending on their state representation and available actions.
 
 An image of the circle categorisation function in action. Food blobs are outlined in blue, edible cells in green and dangerous cells in red according to where our program detects them. Screen edges mess that up a bit. The agents action at this moment is labelled with the green arrow.
+
 ![Circle Detection Diagram drawio](https://user-images.githubusercontent.com/98162688/150537743-c788f4de-223d-44ce-a2d3-ffdec4095b87.png)
 
 States are calculated using the shortest euclidian distance to each of the three circle types: food, edible cells and dangerous cells. These distances are measured and discretized according to which interval they fall within. The rulers in this image are to scale.
